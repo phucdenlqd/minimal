@@ -15,7 +15,15 @@ https://www.behance.net/gallery/52461471/Minim-E-commerce-Website?tracking_sourc
 
 ### II.CODE ET ACHITECTURE
 
-Le projet est réalisé en utilisant les techniques principales : ReactJS, SCSS 
+Le projet est réalisé en utilisant les techniques principales : ReactJS, SCSS, Bootstrap
+
+Packages utilisés: 
+	"node-sass": "^4.13.0",
+    	"react": "^16.12.0",
+    	"react-dom": "^16.12.0",
+    	"react-router-dom": "^5.1.2",
+    	"react-scripts": "3.2.0",
+    	"react-slideshow-image": "^1.3.1"  
 
 Il y a 2 pages principales :
 

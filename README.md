@@ -1,6 +1,6 @@
 ------------DESCRIPRION PROJET MINIMAL E-COMMERCE--------------
 
-**I.INTROCDUCTION
+### I.INTROCDUCTION
 
 Ce projet s’agit une partie de la page e-commerce de design MINIMAL ECOMMERCE
 https://www.behance.net/gallery/52461471/Minim-E-commerce-Website?tracking_source=search%257Clanding%2Bpage
@@ -13,7 +13,7 @@ https://www.behance.net/gallery/52461471/Minim-E-commerce-Website?tracking_sourc
 	
 	- 3.0 Liste des produits ( URL:/products)
 
-**II.CODE ET ACHITECTURE
+### II.CODE ET ACHITECTURE
 
 Le projet est réalisé en utilisant les techniques principales : ReactJS, SCSS 
 
@@ -90,11 +90,11 @@ Components comprend les components utilisés. Chaque components est défini par 
 	
 	- Product :  Produit du site
 
-III. INSTALLATION
+### III. INSTALLATION
 
 Pour exécuter l'application localement:
 
-    - Cloner le projet
+    - Cloner le projet: git clone https://github.com/phucdenlqd/minimal.git
     
     - cd minimal
     
@@ -107,7 +107,7 @@ Pour exécuter l'application localement:
 Construit l'application pour la production dans le dossier `build`:
     -npm run build
 
-***Pour savoir plus (Documentation de Reactjs)  :
+--------Pour savoir plus (Documentation de Reactjs)---------
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 

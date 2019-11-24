@@ -1,0 +1,52 @@
+$break-medium:992px;
+.newsletter-container{
+    padding: 10% 15% ;
+    display: table;
+    .newsletter-content,.newsletter-form{
+        margin: 10%;
+        padding: 0 5%;
+        display: table-cell;
+        vertical-align: middle;
+        @media screen and (max-width:$break-medium){
+            display: table-row;
+            margin:0;
+            padding: 0;
+        }
+    }
+    .newsletter-content{
+        width: 50%;
+        text-align: justify;
+        &__title{
+            margin : 2rem 0 1rem 0  ;
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+        &__text{
+            font-size: 1.2rem;
+        }
+    }
+    .newsletter-form{
+        input{
+            margin:0.5rem;
+            padding: 0.5rem 2rem;
+            border-radius: 2px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        &__input-name, &__input-email{
+            width: 70%;
+            background-color:white;
+            border: solid 1px gray ;
+            color:black;
+            &::-webkit-input-placeholder{ /* For placeholder of input*/
+                color: gray;
+            }
+        }
+        &__input-submit{
+            background-color:black;
+            border: solid 1px gray ;
+            color:white;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.popular-container{
+    padding: 0 1.5rem;
+    font-weight: 600;
+    .popular-header{
+        margin: 4rem 0;
+        &__title{
+            display: inline-block;
+            font-size: 2rem;
+        }
+        &__switch-page{
+            display: block;
+            float: right;
+            font-size: 1.2rem;
+            padding:0 2rem;
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+}

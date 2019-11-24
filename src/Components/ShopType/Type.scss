@@ -1,0 +1,23 @@
+.type-container{
+    margin: 1rem 0;
+    position: relative;
+    .type__title--top{
+        position: absolute;
+        top:10%;
+        left:10%;
+        span{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+    .type__title--bot{
+        position: absolute;
+        bottom:5%;
+        right:10%;
+        cursor: pointer;
+        span{
+            font-weight: 600;
+            text-decoration: underline ;
+        }
+    }
+}

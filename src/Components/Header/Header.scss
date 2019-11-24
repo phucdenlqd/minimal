@@ -1,0 +1,17 @@
+.navbar-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #FFF;
+    .navbar-content{
+        display: flex;
+        align-items: center;
+        svg{
+            cursor: pointer;
+        }
+        &__site-name{
+            cursor: pointer;
+            font-size: 3rem;
+        }
+    }
+    
+ }

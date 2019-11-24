@@ -1,0 +1,9 @@
+$break-medium:992px;
+.body-container{
+    padding-top: 12rem ;/* for fixed navbar*/
+    @media screen and (max-width:$break-medium){
+        padding-top: 6rem ;
+    }
+}
+
+

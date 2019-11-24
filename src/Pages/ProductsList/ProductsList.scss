@@ -1,0 +1,46 @@
+.products-list{
+    padding-top: 12rem ;/* for fixed navbar*/
+    font-size:1.2rem;
+    font-weight: 600;
+    width: 90%;
+    margin: auto;
+    &__sort-bar,&__page-bar{
+        margin-bottom: 2rem;
+    }
+    &__content{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    &__title,&__previous{
+        text-align: left;
+    }
+    &__sort,&__filter,&__next{
+        text-align: right;
+    }
+    &__filter-button{
+        background-color:white;
+        border: solid 2px black ;
+        color:black;
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        border-radius: 2px;
+        font-size: 1.2rem;
+    }
+    &__page-number{
+        text-align: center;
+    }
+    &__title{
+        &--big{
+            font-size: 2rem;
+        }
+    }
+    &__sort{
+        span{
+            margin: 0 0.5rem;
+            cursor: pointer;
+        }
+    }
+    &__previous,&__next{
+        cursor: pointer;
+    }
+}

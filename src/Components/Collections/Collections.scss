@@ -1,0 +1,42 @@
+$break-medium:992px;
+.collections-container{
+    padding: 0 1.5rem;
+    .collections-header{
+        margin: 4rem 0;
+        font-weight: 600;
+        &__title{
+            display: inline-block;
+            font-size: 2rem;
+        }
+        &__switch-page{
+            display: block;
+            float: right;
+            font-size: 1.2rem;
+            padding:0 2rem;
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+    .collections-intro{
+        display: inline-block;
+        margin:1rem 0 2rem;
+        width: 50%;
+        text-align: justify;
+        font-size: 1.5rem;
+        @media screen and (max-width:$break-medium){
+            display: none;
+        }
+    }
+    .collections-see-all{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+        @media screen and (max-width:$break-medium){
+            text-align: left;
+        }
+    }
+}
